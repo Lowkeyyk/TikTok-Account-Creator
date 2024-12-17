@@ -138,3 +138,4 @@ if auto_email == "true":
 else:
     code = input('Enter Code got by Email: ')
     driver.find_element_by_xpath('/html/body/div[1]/div/div[1]/form/div[4]/div[5]/div/input').send_keys(code)
+ input()
